@@ -44,7 +44,7 @@ def before_request() -> None:
     """ the before request functin
     """
     user = get_user()
-    r.user = user
+    g.user = user
 
 
 @babel.localeselector
