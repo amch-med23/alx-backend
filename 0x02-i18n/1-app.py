@@ -5,6 +5,7 @@
 from flask import Flask, render_template
 from flask_babel import Babel
 
+
 class Config(object):
     """ The config class """
     LANGUAGES = ['en', 'fr']
@@ -22,7 +23,6 @@ babel = Babel(app)
 def index():
     """ the index function """
     return render_template('1-index.html')
-
 
 
 if __name__ == '__main__':
