@@ -8,9 +8,6 @@ from flask_babel import Babel
 
 class Config:
     """ The config class
-    
-    Return:
-        no specified return  value
     """
     LANGUAGES = ['en', 'fr']
     BABEL_DEFAULT_LOCALE = 'en'
