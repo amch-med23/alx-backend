@@ -1,1 +1,1 @@
-This is queuing system in javascript.
+This is the 0x03-queuing system in javascript project!
